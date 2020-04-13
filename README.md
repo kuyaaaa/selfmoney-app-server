@@ -1,4 +1,4 @@
-# selfmoney-app
+# selfmoney-app-server
 
 > nodejs+vue个人账本系统（后端部分）
 
