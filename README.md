@@ -1,10 +1,11 @@
 # selfmoney-app
 
-> nodejs+vue个人账本系统
+> nodejs+vue个人账本系统（后端部分）
 
 ## 简单说明
 个人账本💰<br/>
 全栈web项目，后端采用 nodejs + express，数据库MongoDB；前端使用 vue + elementUI + echarts，用于个人记账、查账及每月每年数据报表。<br/>
+本部分为后端部分，前端部分请[点击跳转self-money-web](https://github.com/kuyaaaa/selfmoney-app-web)
 
 ## 目前已实现功能
 1️⃣ 账本表格：用于账单增删改查<br/>
@@ -36,31 +37,6 @@
     "passport-jwt": "^4.0.0",
     "validator": "^10.2.0"
   }
-```
-
-``` bash
-// 前端
-"dependencies": {
-    "axios": "^0.18.0",
-    "core-js": "^3.6.4",
-    "echarts": "^4.7.0",
-    "element-ui": "^2.4.6",
-    "jwt-decode": "^2.2.0",
-    "vue": "^2.6.11",
-    "vue-count-to": "^1.0.13",
-    "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
-  }
-```
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
 ```
 
 ## 联系我
